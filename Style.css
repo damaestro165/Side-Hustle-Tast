@@ -1,0 +1,482 @@
+  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+
+}
+
+body{
+  background-color: hsl(218, 28%, 13%);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+@media screen and ( max-width: 375px) {
+
+
+header{
+  background-color: hsl(218, 28%, 13%);
+  margin: 5px;
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.logo{
+  margin-right: auto;
+}
+.logo img{
+  width: 100px;
+  height: auto;
+  
+}
+
+.nav ul li{
+  list-style-type: none;
+  display: inline;
+}
+
+.nav li a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 400px;
+  color: hsl(0, 0%, 100%);
+  margin-top: -5px;
+}
+
+.container1{
+ justify-content: center;
+ margin-top: 10px;
+ display: flex;
+ margin-top: 10px;
+ flex-direction: column;
+ flex-flow: wrap;
+}
+
+.intro img{
+  width: 300px;
+  height: auto;
+  
+}
+
+.illustration {
+  width: 300px;
+  height: auto;
+  margin: 15px 30px 15px 40px;
+  background-image: url('/images/bg-curvy-mobile.svg');
+  background-size: cover;
+}
+.text1{
+  text-align: center;
+}
+
+.text1 h1{
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  line-height: 30px;
+}
+.text1 button{
+   padding: 15px;
+   border-radius: 20px;
+   background-color:hsl(198, 60%, 50%);
+   width: 50%;
+   border: none;
+   margin-top: 20px ;
+   color: hsl(0, 0%, 100%);
+   
+}
+ .items {
+  display: flex;
+  margin-top: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 10px;
+ }
+ .item1 {
+  text-align: center;
+  margin-top: 30px;
+ }
+ .item1 img{
+  width: 50px;
+  margin: 10px;
+ }
+ .item1 h3{
+  margin: 5px;
+  font-weight: 700px;
+  font-family: 'Raleway', sans-serif;
+ }
+ .stay{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  flex-direction: column;
+ }
+ .staytext h2{
+  margin: 20px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+ }
+ .staytext p{
+  margin: 20px;
+}
+ .staytext a{
+  margin: 20px;
+  color: hsl(176, 68%, 64%);
+  text-decoration-color: hsl(176, 68%, 64%);
+ }
+ 
+ .aside{
+  margin-top: 50px ;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ }
+ .aside img{
+   align-self: flex-start;
+   width: 30px;
+   margin-left: 40px;
+   margin-bottom: -10px;
+ }
+ .testimonies{
+  background-color: hsl(219, 30%, 18%);
+  padding: 5px;
+  margin: 20px 40px;
+  height: auto;
+  width: 300px;
+  border-radius: 5px;
+  font: 1px;
+  font-weight: 400;
+  
+ }
+ .testimony {
+  margin-bottom: 10px;
+  padding: 10px;
+
+ }
+
+.profile{
+ display: flex;
+ flex-direction: row;
+ margin-top: -10px;
+}
+.profile img{
+ border-radius: 50px;
+ width: 50px;
+ margin: 15px 10px;
+ height: 50px;
+}
+.profiletext{
+  margin: 20px 10px 0 0;
+}
+.container2{
+ position: relative;
+ padding: 15px;
+ border-radius: 6px;
+ background-color: hsl(217, 28%, 15%);
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+ margin: 100px 40px 0px 40px ;
+}
+.container2 p, .container2 h3, .container2 button,.container2 input{
+ margin: 10px;
+ background-color: hsl(217, 28%, 15%);
+ color: hsl(0, 0%, 100%);
+}
+.container2 input,.container2 button{
+   padding: 15px;
+   border-radius: 20px;
+   background-color:hsl(198, 60%, 50%);
+   width: 90%;
+   border: none;
+   align-self: center;
+}
+.container2 input{
+ background-color:hsl(0, 0%, 100%);
+}
+footer{
+ background-color:hsl(216, 53%, 9%);
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ margin-top: -100px;
+}
+.about{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.about p{
+  margin: 10px;
+  display: flex;
+
+}
+.about p span{
+  margin-right: 15px;
+}
+.footerItems{
+margin-top: 150px;
+}
+.footerLogo{
+  width: 200px;
+  margin-left: 20px;
+}
+footer ul{
+  margin: 40px 10px;
+}
+
+footer ul li{
+  list-style-type: none;
+  display: block;
+  padding: 10px;
+}
+}
+
+
+  header{
+    background-color: hsl(218, 28%, 13%);
+    margin: 5px;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+  }
+  .logo{
+    margin-right: auto;
+  }
+  .logo img{
+    width: 100px;
+    height: auto;
+    
+  }
+  
+  .nav ul li{
+    list-style-type: none;
+    display: inline;
+  }
+  
+  .nav li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400px;
+    color: hsl(0, 0%, 100%);
+    margin-top: -5px;
+  }
+  
+  .container1{
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    flex-flow: wrap;
+    align-items: center;
+  }
+  
+  .intro img{
+    width: 400px;
+    height: auto;
+    
+  }
+  
+  .text1{
+    text-align: center;
+  }
+  .text1 h1{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 30px;
+  }
+  .text1 button{
+     padding: 15px;
+     border-radius: 20px;
+     background-color:hsl(198, 60%, 50%);
+     width: 50%;
+     border: none;
+     margin-top: 20px ;
+     color: hsl(0, 0%, 100%);
+  }
+  .items {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10px;
+    flex-wrap: wrap;
+   }
+   .item1 {
+    text-align: center;
+    margin: 20px 10px;
+    width: 40%;
+    
+   }
+   .item1 img{
+    width: 50px;
+    margin: 10px;
+   }
+   .item1 h3{
+    margin: 5px;
+    font-weight: 700px;
+    font-family: 'Raleway', sans-serif;
+   }
+   .stay{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   }
+   .illustration {
+    width: 300px;
+    height: auto;
+    margin: 15px 30px 15px 40px;
+  }
+   .staytext h2{
+    margin: 20px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+   }
+   .staytext p{
+    margin: 20px;
+  }
+   .staytext a{
+    margin: 20px;
+    color: hsl(176, 68%, 64%);
+    text-decoration-color: hsl(176, 68%, 64%);
+   }
+   
+   .aside{
+    margin-top: 50px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+   }
+   .aside img{
+     align-self: flex-start;
+     width: 30px;
+     margin-right: -70px;
+     margin-bottom: 10px;
+   }
+   .testimonies{
+    background-color: hsl(219, 30%, 18%);
+    padding: 5px;
+    margin: 20px 40px;
+    height: auto;
+    width: 300px;
+    border-radius: 5px;
+    font: 1px;
+    font-weight: 400;
+    
+   }
+   .testimony {
+    margin-bottom: 10px;
+    padding: 10px;
+  
+   }
+  
+  .profile{
+   display: flex;
+   flex-direction: row;
+   margin-top: -10px;
+  }
+  .profile img{
+   border-radius: 50px;
+   width: 50px;
+   margin: 15px 10px;
+   height: 50px;
+  }
+  .profiletext{
+    margin: 20px 10px 0 0;
+  }
+  .container2{
+   position: relative;
+   padding: 15px;
+   border-radius: 6px;
+   background-color: hsl(217, 28%, 15%);
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   margin: 100px 40px 0px 40px;
+  }
+  .container2 p, .container2 h3, .container2 button,.container2 input{
+   margin: 10px;
+   background-color: hsl(217, 28%, 15%);
+   color: hsl(0, 0%, 100%);
+  }
+  .container2 input,.container2 button{
+     padding: 15px;
+     border-radius: 20px;
+     background-color:hsl(198, 60%, 50%);
+     width: 90%;
+     border: none;
+     align-self: center;
+  }
+  .container2 input{
+   background-color:hsl(0, 0%, 100%);
+  }
+  footer{
+   background-color:hsl(216, 53%, 9%);
+   padding: 20px;
+   flex-direction: row;
+   margin-top: -100px;
+  }
+  .about{
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    margin-left: -14rem;
+    margin-top: 60px;
+  }
+  .about p{
+    margin: 10px 0;
+    display: flex;
+    width: 350px;
+
+  
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .about p span{
+    margin-right: 10px;
+  }
+  .footerItems{
+  display: flex;
+  margin-top: 150px;
+  flex-direction: row;
+  }
+  .footerLogo{
+    width: 200px;
+    margin-left: 20px;
+    align-self: flex-start;
+    margin-bottom: 0;
+  }
+  footer ul{
+    margin-left: 25px;
+  }
+  
+  footer ul li{
+    list-style-type: none;
+    display: block;
+    padding: 10px;
+  }
+
